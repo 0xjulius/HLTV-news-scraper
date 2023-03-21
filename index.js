@@ -9,7 +9,7 @@ app.use(cors())
 const url = 'https://www.hltv.org/'
 const baseUrl = 'https://www.hltv.org'
 
-// app.METHOD(path, handler)
+// app.METHOD(path, handler).
 
 app.get('/', function (req, res) {
     res.json("this is my webscraper")
