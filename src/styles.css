@@ -3,6 +3,7 @@ body{
 }
 p {
     font-size: 14px;
+    color:aquamarine;
 }
 
 a {
@@ -12,7 +13,7 @@ a {
 
 #container {
     padding: 5rem;
-    background-color: #1E2023;
+    background-color: #c0c0c0;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@ a {
 }
 
 #heading {
-    background-color: #191A1A;
+    background-color: #4e4e4e;
     padding: 3rem;
     text-transform: uppercase;
     color: #92B6D8;
@@ -31,7 +32,7 @@ a {
 }
 
 #feed {
-    background-color: #191A1A;
+    background-color: #4e4e4e;
     padding: 3rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom-left-radius: 25px;
