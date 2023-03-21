@@ -1,4 +1,4 @@
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 const axios = require('axios')      // webscraper
 const cheerio = require('cheerio')  // pickups certain HTML-elements
 const express = require('express')
