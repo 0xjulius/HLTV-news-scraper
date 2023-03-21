@@ -10,7 +10,7 @@ app.use(express.static('public'))
 
                                     //locating my frontend to vercel
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+    res.sendFile('index.html','src/styles.css','src/app.js', {root: path.join(__dirname, 'public', 'public/src')});
   })
 module.exports = app
 
