@@ -5,24 +5,24 @@ const express = require('express')
 const cors = require('cors')
 const app = express()
 app.use(cors())
-app.use(express.static('public'))    
+//app.use(express.static('public'))    
 
 
                                     //locating my frontend to vercel
-app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
-  })
+//app.get('/', (req, res) => {
+//    res.sendFile('index.html', {root: path.join(__dirname, 'public')});
+//  })
 
-module.exports = app
+//module.exports = app
 
 const url = 'https://www.hltv.org/'
 const baseUrl = 'https://www.hltv.org'
 
 // app.METHOD(path, handler).
 
-//app.get('/', function (req, res) {
-//    res.json("this is my webscraper")
-//})
+app.get('/', function (req, res) {
+   res.json("this is my webscraper")
+})
 
 /*
 app.get()                           // get data
