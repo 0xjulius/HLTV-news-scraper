@@ -16,9 +16,6 @@ app.get('/', (req, res) => {
   app.get('/', (req, res) => {
     res.sendFile('styles.css', {root: path.join(__dirname, 'public/src')});
   })
-  app.get('/', (req, res) => {
-    res.sendFile('app.js', {root: path.join(__dirname, 'public/src')});
-  })
 module.exports = app
 
 const url = 'https://www.hltv.org/'
